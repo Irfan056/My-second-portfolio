@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding: 8%;
+    
+}
+.half-width img{
+    width: 100%;
+    
+    
+}
+.link-button{
+    background-image: linear-gradient(orange,salmon);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.flexible-container{
+    display: flex;
+    margin: 100px;
+}
+.Expierence-item{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+    box-shadow: 10px 20px 10px gray;
+    border-radius: 5px;
+
+}
+#Web-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, rgb(193, 236, 193));
+    border-image-slice: 1;
+    padding-left:10px;
+}
+#Competative-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(228, 95, 95), rgb(190, 190, 216));
+    border-image-slice: 1;
+    padding-left:10px;
+
+}
+footer{
+    text-align: center;
+}
